@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    margin: auto;
+    font-family:'Courier New', Courier, monospace;
+    background-color:aquamarine;
+}
+
+button{
+    color: black;
+    background-color:beige;
+    font-size:medium;
+    
+}

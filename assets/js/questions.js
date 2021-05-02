@@ -1,6 +1,7 @@
 //Questions for the Quiz
 
-var questionArr = {
+var questionArr = [ 
+    {
     question: "What does the "C" in CSS stand for?
     optionA : "color",
     optionB : "cascading",
@@ -8,3 +9,10 @@ var questionArr = {
     optionD : "cloud",
     correct : "B"
 }
+{
+    question: "how do you append your styling file?"
+    optionA : ".style",
+    optionB : ".css",
+    optionC : ".styling",
+}
+];

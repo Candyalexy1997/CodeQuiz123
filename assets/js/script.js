@@ -17,7 +17,7 @@ var list = document.getElementById("top-score-list");
 var submitButton = document.getElementById ("startBtn");
 var topScore = document.getElementById(topScores);
 
-
+init();
 
 //initializing
 
@@ -28,3 +28,26 @@ function init(){
     var lastUser =
 
 }
+
+document.querySelector("#startBtn").addEventListener('click,startQuiz');
+
+
+function startQuiz () [
+    quizSection.style.display = "block";
+    startButton.style.dsiplay = "none";
+    hello.style.display ="none";
+
+    timerInterval = setInterval (function()){
+        timeRemaining --;
+        timeClock.textContent = timeRemaining + 'seconds left for quiz";
+    }
+
+
+function renderQuestions ()
+{
+    questions.innerHTML = questionArr[i].question;
+    optionAEL.innerHTML = questionArr[i].optionA;
+    optionAEL.innerHTML = questionArr[i].optionA;
+    optionAEL.innerHTML = questionArr[i].optionA;
+}
+]
