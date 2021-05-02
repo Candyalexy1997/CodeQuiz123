@@ -27,5 +27,36 @@
 
 <!--Section for Quiz-->
 
+<div id="question" class="prompt"></div>
+
+<div>
+    <button id="OptionA" type="button" onClick="checkOption('A')" class="button">
+</div>
+
+<div>
+    <button id="OptionB" type="button" onClick="checkOption('B')" class="button">
+</div>
+
+<div>
+    <button id="OptionC" type="button" onClick="checkOption('C')" class="button">
+</div>
+
+<div>
+    <button id="OptionD" type="button" onClick="checkOption('D')" class="button">
+ </div>
+
+<!-- Show HighScores-->
+
+<div id="topScore" class="topHighScore">
+    <div>
+        <form id="scores" method="POST">
+            <label for="text"></label>
+            <input type="text" placeholder="Enter Name Here" name="score-name" id="scores"/>
+        </form>
+        <ul id="top-score-list"></ul>
+    </div>
+</div>
+
+
 </body>
 </html>
